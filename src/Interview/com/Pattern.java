@@ -1,0 +1,27 @@
+// Write a java Program to print star Print
+/*
+ * *****
+ * *****
+ * *****
+ * *****
+ * *****
+ */
+package Interview.com;
+
+public class Pattern {
+	
+	public static void main(String args[])
+	{
+	  for(int row=1; row<=5; row++)
+	  {
+		  for(int col=1; col<=5; col++)
+		  {
+			  System.out.print("* ");
+		  }
+		  
+		  System.out.println("");
+	  }
+	}
+	
+
+}
