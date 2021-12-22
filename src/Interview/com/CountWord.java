@@ -27,7 +27,7 @@ public class CountWord {
 	}
 	
 	public static void main(String[] args) {
-		String str="Hello World";
+		String str="India is great country";
 		count(str);
 		
 	}
