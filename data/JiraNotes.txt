@@ -1,0 +1,70 @@
+agenda
+1. what is Jira
+Project management tool 
+Developed by Atlasian in 2008
+
+2. Jira setup using cloud version
+.exe or cloud 
+
+3. creating a project in jira
+scrum
+
+4. Invinting team members to the project
+settings-> user management->add email address -> invite
+
+5.Types of issues in jira
+Epic:- Larger user story
+
+
+Story:- smaller user story derived from epic
+
+Task:- if the user story is big and agin we can divide the user story into task
+Writing testcases
+
+Bug:- Issue used to create bug report
+
+Test: for writing test cases
+
+6. Starting sprint after creating a backlogs
+ToDo:- yet to start
+In progress:- ur doing the allocated task
+Done:- issue is completed
+
+
+7. Agile board
+TODO    IN Progress   Done
+
+8. Writing testcases using zephyr plugin
+Apps-> find new App->zephyr quad->add or install
+Issue Type:- Test
+
+9. Exceute testcases
+Smoke , regression 
+create test cycle:-
+zephyr squd-> planning and exceution-> cycle summary-> version-> ... -> create test cycle
+
+10. Import testcases from excel sheet
+zephyr squd->import test->choose excel sheet-> mapp the columns -> validate -> begin import
+
+11. creating a bug reaport
+issue type
+summary
+description
+Reporter
+Fix version
+Proiority
+environment
+Attachement
+Assignee
+Epic link
+Sprint
+
+12. Search the issues which are in progress
+
+Filters-> advance issue search->switch to JQL
+
+project=vTiger AND status="In Progress" AND issuetype=Task
+
+13 . Reports
+
+
