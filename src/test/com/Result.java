@@ -13,6 +13,7 @@ static boolean flag=false;
 static
 {
     Scanner sc= new Scanner(System.in);
+    System.out.println("Enter the Numbers");
     B=sc.nextInt();
     H=sc.nextInt();
     flag=false;
@@ -31,7 +32,7 @@ static
 public static void main(String[] args){
 		if(flag){
 			int area=B*H;
-			System.out.print(area);
+			System.out.print("Result="+area);
 		}
 		
 	}

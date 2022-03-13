@@ -8,7 +8,7 @@ public class OnlyUniqueWord {
 	
 public static void main(String[] args) {
 		
-		String s="Welcome to TYSS Welcome Banglaore Bangalore";
+		String s="Welcome to Banalore Banalore Welcome";
 		
 		String[] str=s.split(" ");
 		
@@ -30,7 +30,7 @@ public static void main(String[] args) {
 				}
 			}
 			
-			//if(count>1)
+		//	if(count>1)
 			System.out.print(word+" ");
 			
 			

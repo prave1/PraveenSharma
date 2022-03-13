@@ -25,7 +25,7 @@ public static void main(String[] args)
 		{
               	sum=sum+a[i];		
 		}
-		System.out.println(sum);
+		System.out.println("Sum of Array="+sum);
 		
 		
 	}

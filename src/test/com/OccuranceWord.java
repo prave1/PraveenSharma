@@ -5,7 +5,7 @@ import java.util.HashSet;
 public class OccuranceWord {
 	public static void main(String[] args) {
 		
-		String s="Welcome to TYSS Welcome";
+		String s="Welcome to TYSS Welcome to";
 		
 		String[] str=s.split(" ");
 		
@@ -28,7 +28,7 @@ public class OccuranceWord {
 			}
 			
 			if(count>1)
-			System.out.println(word+ " "+count);
+			System.out.println(word+ " ="+count);
 			
 			
 		}

@@ -11,17 +11,12 @@ public class CharacterCountString {
 		
 		Scanner sc= new Scanner(System.in);
 		System.out.println("Enter the character:");
-		String s=sc.nextLine();
-		
-		
-		
-		//String s="aabbccdd";
-		s=s.replace(" ", "");
+     	String s=sc.nextLine();
 		
 		char arr[]=s.toCharArray();  //make the String in char array 
 		
 		int count=0;
-		Map<Character,Integer> map= new TreeMap<>();
+		Map<Character,Integer> map= new HashMap<>();
 		for(int i=0; i<arr.length; i++)   // character Array Applay the logic
 		{
 		   count=0;	
@@ -32,7 +27,8 @@ public class CharacterCountString {
 				count++;
 			}
 			}
-			map.put(arr[i], count);
+			
+		map.put(arr[i], count);
 		}
 		System.out.println(map);
 	}

@@ -20,7 +20,7 @@ public class FindMissingNumber {
 		int []array= {1,2,3,5};
 		int missingNumber=getMissingNumber(array,5);
 		
-		System.out.printf("Missing Number in array %s is %d %n ",Arrays.toString(array),missingNumber);
+		System.out.printf("Missing Number in array =%s is %d %n ",Arrays.toString(array),missingNumber);
 		
 	}
 

@@ -3,20 +3,24 @@ package test.com;
 public class ReverseWord {
 	
 	public static void main(String[] args) {
-		String s="India is the best country";
 		
-		String s1="";
+		String s="india is great country";
+	  
+		 String a="";
+		 String[] s1 = s.split(" ");
 		
-		String a[]=s.split(" ");
 		
-		for(int i=a.length-1; i>=0; i--)
+		
+		for(int i=s1.length-1; i>=0; i--)
 		{
-			s1=s1+a[i]+" ";
+		   a=a+s1[i]+" ";
+		   
+			//System.out.print(s1[i]+" ");
 		}
 		
-		System.out.println(s1);
-		
-		
+		System.out.println(a);
+	
+	
 	}
 
 }

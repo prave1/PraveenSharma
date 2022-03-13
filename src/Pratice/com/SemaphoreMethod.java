@@ -5,13 +5,13 @@ import java.util.concurrent.Semaphore;
 class Shared {
 	static int count = 0 ;
 }
-class SemaphoreMethod extends Thread {
+class SemaphoreMethod extends Threading1 {
 
 	Semaphore sem;
 	String threadName;
 	
 	public SemaphoreMethod(Semaphore sem, String threadName) {
-		super(threadName);
+		
 		this.sem = sem;
 		this.threadName = threadName;
 	}
@@ -31,7 +31,7 @@ class SemaphoreMethod extends Thread {
 				for(int i = 0; i < 5; i++) {
 					Shared.count++;
 					System.out.println(threadName + ": " + Shared.count);
-					Thread.sleep(100);
+					Threading1.sleep(100);
 				}
 			} catch (Exception e) {
 				System.out.println("Exception: "+e);
@@ -53,7 +53,7 @@ class SemaphoreMethod extends Thread {
 					Shared.count--;
 					System.out.println(threadName + ": " + Shared.count);
 					
-					Thread.sleep(100);
+					Threading1.sleep(100);
 				}
 			} catch (Exception e) {
 				System.out.println("Exception: " +e);

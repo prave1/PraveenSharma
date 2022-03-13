@@ -9,7 +9,7 @@ public class StringWithoutThird {
 		
 		s1=s1+s2;
 		
-		
+		System.out.println(s1);
 	}
 
 }

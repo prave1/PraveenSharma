@@ -23,9 +23,9 @@ public class AddRemove {
 		
 	System.out.println("-----------------------------");
 	
-	for(Object o: al)
+	for(Object ele: al)
 	{
-		System.out.println(o);
+		System.out.println(ele);
 	}
 	
 		

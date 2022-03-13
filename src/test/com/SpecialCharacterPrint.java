@@ -3,7 +3,7 @@ package test.com;
 public class SpecialCharacterPrint {
 	public static void main(String[] args) {
 		
-		String s="a5b7$c%6@$";
+		String s="a5b7$c%6@$A#";
 		
 		String alpha="";
 		String num="";

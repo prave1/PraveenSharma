@@ -15,8 +15,8 @@ import java.util.Arrays;
 public class Anagram { 
 	public static void main(String args[])
 	{
-		String str1="java;";
-		String str2="sharma";
+		String str1="java";
+		String str2="avaj";
 		
 		System.out.println("Both String are anagrams="+anagramCheck(str1,str2));
 		
@@ -29,6 +29,7 @@ public class Anagram {
 		
 		Arrays.sort(charArrayFromString1);
 		Arrays.sort(charArrayFromString2);
+		
 		return Arrays.equals(charArrayFromString1,charArrayFromString2);
 		
 	}

@@ -10,9 +10,9 @@ package Pratice.com;
  */
 public class CreateDeadlockBetweenTwoThreads {
 	String str1 = "Hello";
-	String str2 = "World";
+	String str2 = "rajeev";
 
-	Thread t1 = new Thread("First Thread") {
+	Threading1 t1 = new Threading1() {
 		public void run() {
 			while (true) {
 				synchronized (str1) {
@@ -23,7 +23,7 @@ public class CreateDeadlockBetweenTwoThreads {
 			}
 		}
 	};
-	Thread t2 = new Thread("Second Thread") {
+	Threading1 t2 = new Threading1() {
 		public void run() {
 			while (true) {
 				synchronized (str2) {

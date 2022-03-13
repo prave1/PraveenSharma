@@ -1,6 +1,7 @@
 package test.com;
 
 public class SecondMaximamOrder {
+	
 public static void main(String[] args) {
 		
 		int a[]= {10,20,50,40,30};
@@ -9,7 +10,7 @@ public static void main(String[] args) {
 		{
 			for(int j=i+1; j<a.length; j++)
 			{
-				if(a[i]<a[j])
+				if(a[i]>a[j])
 				{
 					
 					int temp=a[i];

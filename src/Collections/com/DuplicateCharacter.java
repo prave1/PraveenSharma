@@ -10,7 +10,7 @@ public class DuplicateCharacter {
 	public static void main(String[] args) {
 		
 		
-		String str="PraveenSharma";
+		String str="Praveen";
 		
 	     displayDuplicates(str);
 		
